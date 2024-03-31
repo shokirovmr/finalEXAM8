@@ -130,6 +130,7 @@ REST_FRAMEWORK = {
 
 AES_ENCRYPTION_KEY = b''
 
+AUTH_USER_MODEL = 'task1.User'
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
