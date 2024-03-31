@@ -5,7 +5,7 @@ from rest_framework_simplejwt.views import (
 )
 
 
-from user.api_endpoints.User.UserCreate.views import UserCreateView
+from apps.task1.api_eendpoint.User.UserCreate.views import UserCreateView
 
 urlpatterns = [
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),

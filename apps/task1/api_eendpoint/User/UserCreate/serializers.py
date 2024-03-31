@@ -6,13 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from django.core.mail import send_mail
 from rest_framework.exceptions import ValidationError
 from rest_framework.fields import EmailField, CharField, ImageField
 from rest_framework.serializers import ModelSerializer
 
-from user.models import User
-from user.utils import generate_token
+from apps.task1.models import User
+from apps.task1.utils import generate_token
 
 
 class UserCreateSerializer(ModelSerializer):
