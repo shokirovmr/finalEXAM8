@@ -2,9 +2,9 @@ import os
 
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 from rest_framework.exceptions import ValidationError
 from rest_framework.fields import EmailField, CharField, ImageField

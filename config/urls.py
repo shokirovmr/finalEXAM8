@@ -6,7 +6,7 @@ from config import settings
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/v1/user/", include("apps.urls")),
+    path("api/v1/user/", include("apps.task1.urls")),
 ]
 urlpatterns += swagger_patterns
 if settings.DEBUG:
